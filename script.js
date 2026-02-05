@@ -26,7 +26,7 @@ yesBtn.addEventListener("click", () => {
 });
 
 /* Typing Effect */
-const text = "You are now Sidhant's Valentine! ❤️\nHappy Valentine’s Day 💘";
+const text = "You are now Sidhant's Valentine! ❤️\nHehe! 💘";
 let index = 0;
 
 function typeText() {
@@ -37,3 +37,4 @@ function typeText() {
         setTimeout(typeText, 70);
     }
 }
+
