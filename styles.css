@@ -24,16 +24,18 @@ body, html {
 
 /* BACKGROUND */
 body {
-    background-image: url("https://i.pinimg.com/736x/98/bd/32/98bd3246ebb07bc375a857ec014157ff.jpg");
+    background-image: url('./bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
 
 /* HEARTS */
 .hearts::before,
@@ -123,3 +125,4 @@ body {
 .hidden {
     display: none;
 }
+
