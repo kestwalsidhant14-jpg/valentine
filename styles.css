@@ -126,6 +126,28 @@ body {
     display: none;
 }
 
+/* MOBILE FIX */
+@media (max-width: 600px) {
+
+    .main-container {
+        padding: 16px 14px;
+        max-width: 85%;
+        border-radius: 16px;
+    }
+
+    .question {
+        font-size: 1.9em;
+        line-height: 1.2;
+        margin-bottom: 16px;
+    }
+
+    .btn {
+        padding: 12px 26px;
+        font-size: 1.1em;
+    }
+}
+
+
 
 
 
