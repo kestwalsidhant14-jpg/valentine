@@ -69,7 +69,7 @@ body {
 
 /* MAIN CARD */
 .main-container {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.5);
     padding: 30px 20px;
     border-radius: 20px;
     box-shadow: 0 0 25px rgba(255, 105, 180, 0.45);
@@ -125,6 +125,7 @@ body {
 .hidden {
     display: none;
 }
+
 
 
 
